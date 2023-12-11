@@ -1,0 +1,37 @@
+{
+  "Type": "Entity",
+  "Scale": [1,1,1],
+  "Model": [
+    {
+      "Scale": [1,1,1],
+      "From": [0,0,0],
+      "To": [8,8,1],
+      "Anchor": [0,0,0],
+      "Faces": {
+        "down":  { "uv": [ 0, 0, 16, 16 ], "cull":true, "Texture": 0 },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "cull":true, "Texture": 0 },
+
+        "north": { "uv": [ 0, 8, 16, 16 ], "cull":true, "Texture": 0 },
+        "south": { "uv": [ 0, 8, 16, 16 ], "cull":true, "Texture": 0 },
+
+        "west":  { "uv": [ 0, 8, 16, 16 ], "cull":true, "Texture": 0 },
+        "east":  { "uv": [ 0, 8, 16, 16 ], "cull":true, "Texture": 0 }
+      }
+    },
+    {
+      "Scale": [1,1,1],
+      "From": [ 8, 8, 0 ],
+      "To": [ 16, 16, 16 ],
+      "Anchor": [0,0,0],
+      "Faces": {
+        "up":    { "uv": [ 0, 8, 16, 16 ], "cull":true, "Texture": 0 },
+
+        "north": { "uv": [ 0, 0, 8, 8 ], "cull":true, "Texture": 0 },
+        "south": { "uv": [ 8, 0, 16, 8 ], "cull":true, "Texture": 0 },
+
+        "west":  { "uv": [ 0, 0, 16, 8 ], "cull":true, "Texture": 0 },
+        "east":  { "uv": [ 0, 0, 16, 8 ], "cull":true, "Texture": 0 }
+      }
+    }
+  ]
+}

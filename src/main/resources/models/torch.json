@@ -1,0 +1,22 @@
+{
+  "Type": "Entity",
+  "Scale": [1,1,1],
+  "Model": [
+    {
+      "Scale": [1,1,1],
+      "From": [8,0,8],
+      "To": [9,10,9],
+      "Anchor": [0,0,0],
+      "Faces": {
+        "up":    { "uv": [ 0, 0, 1, 1 ], "cull":true, "Texture": 58 },
+        "down":  { "uv": [ 0, 0, 1, 1 ], "cull":true, "Texture": 58 },
+
+        "north": { "uv": [ 0, 0, 1, 1 ], "cull":true, "Texture": 58 },
+        "south": { "uv": [ 0, 0, 1, 1 ], "cull":true, "Texture": 58 },
+
+        "west":  { "uv": [ 0, 0, 1, 1 ], "cull":true, "Texture": 58 },
+        "east":  { "uv": [ 0, 0, 1, 1 ], "cull":true, "Texture": 58 }
+      }
+    }
+  ]
+}
